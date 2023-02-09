@@ -1,0 +1,24 @@
+.header-title {
+  font-family: "TT Travels";
+  font-style: italic;
+  font-weight: 800;
+  font-size: 128px;
+  line-height: 154px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+/*  */
+.header-content button {
+  font-family: "TT Travels";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fbf8f3;
+}
+.watch-btn {
+  width: 203px;
+  height: 58px;
+  background: linear-gradient(99.46deg, #9dfe00 -10.9%, #14d9e6 97.14%);
+  border-radius: 100px;
+}
