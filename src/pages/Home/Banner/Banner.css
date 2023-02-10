@@ -1,3 +1,14 @@
+.banner-container {
+  background-image: url("../../../assets/home/Background.png");
+  background-repeat: no-repeat;
+}
+
+.logo {
+  width: 227px;
+  height: 48px;
+  margin-top: 58px;
+  margin-bottom: 26px;
+}
 .header-title {
   font-family: "TT Travels";
   font-style: italic;
@@ -7,17 +18,28 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-/*  */
-.header-content button {
+
+.watch-btn {
+  padding: 17px 25px;
+  gap: 10px;
+  height: 58px;
+  background: linear-gradient(99.46deg, #9dfe00 -10.9%, #14d9e6 97.14%);
+  border-radius: 100px;
   font-family: "TT Travels";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
+  /* identical to box height */
+
   color: #fbf8f3;
 }
-.watch-btn {
-  height: 58px;
-  background: linear-gradient(99.46deg, #9dfe00 -10.9%, #14d9e6 97.14%);
-  border-radius: 100px;
+
+.header-text {
+  font-family: "TT Travels";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #14d9e6;
 }

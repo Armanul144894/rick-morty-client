@@ -1,15 +1,15 @@
 import React from "react";
 import logo from "../../../assets/logo/Logo1.png";
 import "./Banner.css";
-import { FaPlayCircle, FaRegPlayCircle } from "react-icons/fa";
+import { FaRegPlayCircle } from "react-icons/fa";
 
 const Banner = () => {
   return (
-    <div>
-      <div className="container">
+    <div className="banner-container text-center">
+      <div className="container ">
         <div className="row justify-content-center">
           <div className="col-md-6">
-            <img src={logo} alt="" />
+            <img className="logo" src={logo} alt="" />
           </div>
         </div>
       </div>
@@ -28,11 +28,11 @@ const Banner = () => {
       </div>
       <div className="container mx-auto">
         <div className="row justify-content-center">
-          <div className="col-md-8 d-flex flex-column-reverse flex-sm-column-reverse flex-md-row flex-lg-row gap-5 justify-content-around header-content">
-            <button className="watch-btn text-white w-50 d-flex align-items-center justify-content-center gap-2">
+          <div className="col-md-8 d-flex flex-column-reverse flex-sm-column-reverse flex-md-row flex-lg-row gap-5 align-items-center header-content">
+            <button className="watch-btn w-50 d-flex align-items-center justify-content-center gap-2">
               <FaRegPlayCircle></FaRegPlayCircle>Watch Now
             </button>
-            <p className="text-white text-start">
+            <p className="header-text text-start">
               Brilliant but boozy scientist Rick hijacks his fretful teenage
               grandson, Morty, for wild escapades in other worlds and alternate
               dimensions.
